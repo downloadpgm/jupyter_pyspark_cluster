@@ -91,7 +91,7 @@ ni5xrb60u71i   spk_spk3   replicated   1/1        mkenjis/ubpyspk_img:latest
 $ docker stack deploy -c docker-compose-yarn.yml spk
 $ docker service ls
 ID             NAME          MODE         REPLICAS   IMAGE                                 PORTS
-xf8qop5183mj   spk_spk_cli   replicated   0/1        mkenjis/ubpyspk_img:latest
+xf8qop5183mj   spk_spk_cli   replicated   0/1        mkenjis/ubpyspkcli_yarn_img:latest
 ```
 
 7. in spark master node / yarn client, setup jupyter notebook
